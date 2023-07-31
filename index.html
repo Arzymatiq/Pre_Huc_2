@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">FitnessFusion</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link log_in_Button"
+                                id="LogIn"
+                                href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"
+                                >Log in</a
+                            >
+                            <a
+                                class="nav-link log_in_Button"
+                                id="register"
+                                href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"
+                                >Register</a
+                            >
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true"
+                                >Disabled</a
+                            >
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav> -->
+
+        <header>
+            <!-- <div class="container"> -->
+            <div class="main_header">
+                <div class="logo">
+                    <a class="logo_img" href=""><img src="" alt="logo" /></a>
+                </div>
+                <div class="list_header">
+                    <a
+                        class="nav-link log_in_Button"
+                        id="LogIn"
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"
+                        >Log in</a
+                    >
+                    <a
+                        class="nav-link log_in_Button"
+                        id="register"
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"
+                        >Register</a
+                    >
+                    <a href="#" class="sevis">SERVICE</a>
+                    <a class="nav-link disabled" aria-disabled="true"
+                        >Disabled</a
+                    >
+                    <form class="d-flex" role="search">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- </div> -->
+        </header>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="./img/carousel/carousel_img_1.jpg"
+                        class="d-block w-100"
+                        height="1000px" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            first slide.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="./img/carousel/carousel_img_2.jpg"
+                        class="d-block w-100"
+                        height="1000px" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            second slide.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="./img/carousel/carousel_img_3.jpg"
+                        class="d-block w-100"
+                        height="1000px" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>
+                            Some representative placeholder content for the
+                            third slide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- end -->
+        <!-- register modal -->
+        <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                            Log In
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div
+                            class="register_inputs d-flex mt-2"
+                            style="flex-direction: column">
+                            <input
+                                type="url"
+                                class="reg-user_ava mt-1"
+                                placeholder="avatar" />
+                            <input
+                                type="text"
+                                class="reg-user_name mt-1"
+                                placeholder="user name" />
+                            <div class="contanier">
+                                <input
+                                    type="text"
+                                    class="reg-password mt-1"
+                                    placeholder="password" />
+                                <input
+                                    type="text"
+                                    class="reg-password_confirm mt-1"
+                                    placeholder="password confirm" />
+                            </div>
+                        </div>
+
+                        <div
+                            class="LogIn_inputs d-flex mt-2"
+                            style="flex-direction: column">
+                            <input
+                                type="text"
+                                class="logIn-user_Uame mt-5"
+                                placeholder="user name" />
+                            <input
+                                type="number"
+                                class="logIn-password"
+                                placeholder="password" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            id="LogIn_modal_btn"
+                            class="btn btn-secondary">
+                            Log in
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-primary"
+                            id="register_modal_btn">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- add Products modal -->
+        <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-toggle="modal"
+            data-bs-target="#addProductModal">
+            add Product
+        </button>
+        <!-- add Products modal -->
+        <div
+            class="modal fade"
+            id="addProductModal"
+            tabindex="-1"
+            aria-labelledby="AddProductModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="AddProductModalLabel">
+                            Modal title
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div
+                        class="modal-body w-100 d-flex"
+                        style="flex-direction: column">
+                        <input
+                            type="text"
+                            id="add_product_title"
+                            class="mt-2"
+                            placeholder="Product title" />
+                        <input
+                            type="text"
+                            id="add_product_desk"
+                            class="mt-2"
+                            placeholder="Product deckription" />
+                        <input
+                            type="text"
+                            id="add_product_img"
+                            class="mt-2"
+                            placeholder="Pictures url" />
+
+                        <input
+                            type="number"
+                            id="add_product_price"
+                            class="mt-2"
+                            placeholder="price" />
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                            Close
+                        </button>
+                        <button
+                            type="button"
+                            id="add_product_btn"
+                            class="btn btn-primary">
+                            add product
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center" id="card_contaner"></div>
+
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="changeModal"
+            tabindex="-1"
+            aria-labelledby="changeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="changeModalLabel">
+                            Modal title
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input
+                            type="text"
+                            class="changeInp"
+                            id="change_avatar_inp"
+                            placeholder="change avatar" />
+                        <input
+                            type="text"
+                            class="changeInp"
+                            id="change_title_inp"
+                            placeholder="change title" />
+                        <input
+                            type="text"
+                            class="changeInp"
+                            id="change_desk_inp"
+                            placeholder="change deck" />
+                        <input
+                            type="text"
+                            class="changeInp"
+                            id="change_price_inp"
+                            placeholder="change price" />
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                            Close
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-primary saveChangesBtn">
+                            Save changes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <a class="logo_img" href=""
+                                ><img src="" alt="logo"
+                            /></a>
+                        </div>
+                        <h1>FITNESS FUSION</h1>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <p>Телефон: 0 555 55 55 55</p>
+                        <p>Email: info@fitness-shop.com</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        © 2023 Интернет-магазин FINESS FUSION <br />
+                        Все права защищены.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/main.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
